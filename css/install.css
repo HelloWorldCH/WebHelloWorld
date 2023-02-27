@@ -126,13 +126,15 @@ body {
     border: 1px solid #44884d;
 }
 
-.hw-box-database {
+.hw-box-database,
+.hw-box-websetup {
     padding-left: 20%;
     padding-right: 20%;
     margin-bottom: -10px;
 }
 
-.hw-box-database-body {
+.hw-box-database-body,
+.hw-box-websetup-body {
     padding-bottom: 0px;
     margin-top: -30px;
     margin-bottom: -60px;
@@ -199,12 +201,14 @@ body {
     color: #000000;
 }
   
-.hw-database {
+.hw-database,
+.hw-websetup {
     margin-top: -30px;
     margin-bottom: -3px;
 }
 
-.hw-database label {
+.hw-database label,
+.hw-websetup label {
     display: block;
     font-size: 20px;
     color: #181717;
@@ -215,7 +219,11 @@ body {
 .hw-database input[type="text"],
 .hw-database input[type="email"],
 .hw-database input[type="number"],
-.hw-database input[type="password"] {
+.hw-database input[type="password"],
+.hw-websetup input[type="text"],
+.hw-websetup input[type="email"],
+.hw-websetup input[type="number"],
+.hw-websetup input[type="password"] {
     width: 100%;
     padding: 8px;
     font-size: 20px;
@@ -239,7 +247,8 @@ body {
 }
 
 #hw-button-install-id,
-#hw-button-install-id-database {
+#hw-button-install-id-database,
+#hw-button-install-id-websetup {
     font-family: PixelArtFont_Thai;
     font-size: 20px;
     letter-spacing: 0.15em;

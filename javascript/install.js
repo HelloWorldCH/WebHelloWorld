@@ -1,3 +1,8 @@
+// โค้ดนี้ถูกสร้างขึ้นโดย HelloWorld
+// และอนุญาติให้มีการนำไปใช้เพื่อการศึกษาและการเรียนรู้เท่านั้น
+// ไม่อนุญาตให้นำโค้ดนี้ไปใช้ในเชิงพาณิชย์หรือจำหน่ายโดยเด็ดขาด
+// และไม่รับประกันความเหมาะสมหรือความเสียหายที่อาจเกิดขึ้นจากการใช้งานไฟล์นี้ในกรณีใดๆ ทั้งสิ้น
+
 if (window.location.search === '?step=1') {
   const boxCheck = document.querySelector('.hw-box-check');
   const boxCheckSupport = boxCheck.querySelectorAll('.hw-box-check-support');
